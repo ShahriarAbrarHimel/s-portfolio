@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    padding: 0% 5%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    
+    padding: 0 8%;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, rgb(245, 141, 129), tomato);
+    color: white;
+    border-radius: 5px;
+}
+.one-third{
+    width: 27%;
+    box-shadow: 10px 10px 10px rgb(173, 171, 171);
+    margin: 1%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.one-third img{
+    width: 100%;
+    
+}
+
+.project-background ,#contact{
+    background-color:rgb(245, 245, 245);
+}
+.orange-highlight{
+    color: orange;
+}
+
+.work-inquiry{
+    display: flex;
+    align-items: center; 
+    background-image: url("images/Group_33094_1.png");
+    margin: 50px;
+    padding:  0 50px;
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-size: 850px;  
+}
+
+.size-it{
+    padding: 50px;
+    margin: 0 100px;
+}
+
+.white-color{
+    color: white;
+    font-size: 55;
+}
+.stay-connected{
+    text-align: center;
+}
+#connected{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #696871;
+    margin: 0;
+}
+#email{
+    font-size: 25px;
+    color: #363958;
+    font-weight: bold;
+}
+
+.stay-connected img{
+    width: 30px;
+    margin: 10px;
+}
+
+li{
+    display: block;
+    margin: 20px;
+}
+li a{
+    text-decoration: none;    
+    color: #3C3C3C;
+}
+
+ul{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+}
+.menu{
+    margin: 0 13%;
+}
+
+.one-third p{
+    color: #6C6C6C;
+}
+
+.year{
+    font-size: 20px;
+    font-weight: bold;
+}
+.position{
+    font-size: 30px;
+}
+.office{
+    color: #6C6C6C;
+    font-size: 25px;
+    padding: 0;
+}
+.education{
+    text-align: right;
+}
+#about-sec{
+    text-align: right;
+    padding: 0 10%;
+}
+#intro{
+    padding: 0 10%;
+}
